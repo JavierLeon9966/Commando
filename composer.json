@@ -3,6 +3,16 @@
     "description": "A Command Framework virion for PocketMine-MP ",
     "type": "library",
     "license": "LGPL-3.0-only",
+    "require": {
+        "pocketmine/pocketmine-mp": "^5.0.0",
+        "muqsit/simple-packet-handler": "dev-patch-1 as 0.1.4"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/JavierLeon9966/SimplePacketHandler.git"
+        }
+    ],
     "autoload": {
         "psr-4": {"CortexPE\\Commando\\": ["src\\CortexPE\\Commando\\"]}
     }
