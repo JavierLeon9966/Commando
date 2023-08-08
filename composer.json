@@ -14,6 +14,6 @@
         }
     ],
     "autoload": {
-        "psr-4": {"CortexPE\\Commando\\": ["src\\CortexPE\\Commando\\"]}
+        "psr-4": {"CortexPE\\Commando\\": ["src/CortexPE/Commando/"]}
     }
 }
